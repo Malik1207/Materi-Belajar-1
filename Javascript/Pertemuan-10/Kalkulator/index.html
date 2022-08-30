@@ -1,0 +1,146 @@
+<html>
+
+	<head>
+	
+		<title>KALKULATOR</title>
+		
+		<style>
+			
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100%;
+			}
+				
+			table {
+				border: 1px solid black;
+				border-radius: 8px;
+				padding: 8px;
+			}
+			
+			th {
+				border: 1px solid white;
+				border-radius: 8px;
+			}
+			
+			input {
+				padding: 10px;
+				font-size: 15px;
+			}
+			
+			button {
+				padding: 8px;
+				width: 100%;
+			}
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<table>
+		
+			<thead>
+				<tr>
+					<th colspan="4"><input value="0" readOnly id="layar" type="text" /></th>
+				</tr>
+			</thead>
+			
+			<tbody>
+			
+				<tr>
+					<th colspan="4"><button id="operator"></button></th>
+				</tr>
+			
+				<tr>
+					<th colspan="3"><button onclick="reset()">C</button></th>
+					<th><button onclick="operator('/')">/</button></th>
+				</tr>
+				
+				<tr>
+					<th><button onclick="angka(9)">9</button></th>
+					<th><button onclick="angka(8)">8</button></th>
+					<th><button onclick="angka(7)">7</button></th>
+					<th><button onclick="operator('*')">X</button></th>
+				</tr>
+				
+				<tr>
+					<th><button onclick="angka(6)">6</button></th>
+					<th><button onclick="angka(5)">5</button></th>
+					<th><button onclick="angka(4)">4</button></th>
+					<th><button onclick="operator('-')">-</button></th>
+				</tr>
+				
+				<tr>
+					<th><button onclick="angka(3)">3</button></th>
+					<th><button onclick="angka(2)">2</button></th>
+					<th><button onclick="angka(1)">1</button></th>
+					<th><button onclick="operator('+')">+</button></th>
+				</tr>
+				
+				<tr>
+					<th colspan="3"><button onclick="angka(0)">0</button></th>
+					<th><button onclick="hasil()">=</button></th>
+				</tr>
+			</tbody>
+			
+		</table>
+		
+		<script src="script.js"></script>
+		
+		
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

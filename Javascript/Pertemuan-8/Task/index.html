@@ -1,0 +1,354 @@
+<html>
+
+	<head>
+		<title>Tugas</title>
+	</head>
+	
+	<body>
+		
+		<h1 style="text-align: center; font-size: 50px;">JAVASCRIPT DATA OBJECT</h1>
+		
+		<script>
+			
+			//OBJECT 1
+			var kucing = {
+			
+				//Properties
+				jenis : ' Himalaya ',
+				warna : ' Orange ',
+				
+				//Method
+				
+				//Anonymous Function
+				gigit : function(a) {
+					document.write(' Dia menggigit ' + a )
+				},
+				cakar : function(b) {
+					document.write(' Dia mencakar ' + b )
+				},
+				
+				//Object 
+				tubuh : {
+					bulu: 'lebat ',
+					ekor: 'pendek ',
+					//Object dalam object
+					muka: {
+						hidung: 'pesek ',
+						gigi: 'bertaring ',
+					}
+				}
+			};
+			
+			document.write('1. KUCING ')
+			
+			document.write('<br>'); document.write('<br>')
+			
+			document.write( '(Properties)' )
+			document.write('<br>')
+			
+			//Properties
+			document.write( ' Jenisnya ' + kucing.jenis + ' Warnanya ' + kucing.warna )
+
+			document.write('<br>'); document.write('<br>')
+			
+			document.write( '(Method)' )
+			document.write('<br>')
+			
+			//Method
+			kucing.gigit(' Sangat Kuat ')
+			kucing.cakar(' Sangat Tajam ' )
+
+			document.write("<br>"); document.write('<br>')
+			
+			document.write( '(Object)' )
+			document.write('<br>')
+			
+			//Object 
+			document.write('Bulunya ' + kucing.tubuh.bulu + ' Ekornya ' + kucing.tubuh.ekor)
+
+			document.write("<br>"); document.write('<br>')
+			
+			document.write( '(Object dalam object)' )
+			document.write('<br>')
+			
+			//Object dalam object
+			document.write('Hidungnya ' + kucing.tubuh.muka.hidung + ' Giginya ' + kucing.tubuh.muka.gigi)
+			document.write("<br>");document.write('<br>')
+			
+			
+			
+			
+			//OBJECT 2
+			var rumah = {
+			
+				//Properties
+				jenis : ' Rumah Lamin ',
+				asal : ' Kalimatan Timur ',
+				
+				//Method
+				
+				//Anonymous Function
+				panjang : function(a) {
+					document.write(' Panjangnya mencapai ' + a )
+				},
+				lebar : function(b) {
+					document.write(' Lebarnya mencapai ' + b )
+				},
+				
+				//Object 
+				terbuat : {
+					kayu: 'Ulin ',
+					atap: 'Genting Tanah Liat ',
+					//Object dalam object
+					hiasan: {
+						patung: 'Kayu ',
+						kepalaNaga: 'Kayu ',
+					}
+				}
+			};
+			
+			document.write('2. RUMAH ADAT')
+			
+			document.write('<br>');document.write('<br>')
+			
+			document.write( '(Properties)' )
+			document.write('<br>')
+			
+			//Properties
+			document.write( ' Jenisnya ' + rumah.jenis + ' Asal dari ' + rumah.asal)
+			
+			document.write('<br>'); document.write('<br>')
+			
+			document.write( '(Method)' )
+			document.write('<br>')
+			
+			//Method
+			rumah.panjang(' 300 meter ')
+			rumah.lebar(' 15 meter ' )
+			
+			document.write('<br>'); document.write('<br>')
+			
+			document.write( '(Object)' )
+			document.write('<br>')
+			
+			//Object 
+			document.write('Terbuat dari kayu ' + rumah.terbuat.kayu + ' Atapnya terbuat dari ' + rumah.terbuat.atap)
+			
+			document.write('<br>'); document.write('<br>')
+			
+			document.write( '(Object dalam object)' )
+			document.write('<br>')
+			
+			//Object dalam object
+			document.write('Terdapat hiasan patung dari ' + rumah.terbuat.hiasan.patung + ' dan hiasan Kepala Naga dari ' + rumah.terbuat.hiasan.kepalaNaga);
+			document.write("<br>");document.write("<br>")
+			
+			
+			
+			
+			
+			//OBJECT 3
+			var motor = {
+			
+				//Properties
+				merek : ' Honda ',
+				type : ' Honda C70 ',
+				
+				//Method
+				
+				//Anonymous Function
+				kecepatan : function(a) {
+					document.write( ' Melaju dengan kecepatan ' + a )
+				},
+				indikator : function(b) {
+					document.write(' Indikator bensinya ' + b )
+				},
+				
+				//Object 
+				kerangka : {
+					mesin: 'Pispot Engkel Blok Head ',
+					ban: 'Astrea Prima Star 2 ',
+					//Object dalam object
+					body: {
+						lampu: 'Daymaker c70 ',
+						speedoMeter: 'Spido Meter c70 pispot ',
+					}
+				}
+			};
+			
+			document.write('3. HONDA C70')
+			
+			document.write('<br>');document.write('<br>');
+			
+			document.write( '(Properties)' )
+			document.write('<br>')
+			
+			//Properties
+			document.write( ' Merek ' + motor.merek + ' Type ' + motor.type)
+			
+			document.write('<br>'); document.write('<br>')
+			
+			document.write( '(Method)' )
+			document.write('<br>')
+			
+			//Method
+			motor.kecepatan(' 70 km per jam ')
+			motor.indikator(' 155 km per liter ' )
+			
+			document.write('<br>'); document.write('<br>')
+			
+			document.write( '(Object)' )
+			document.write('<br>')
+			
+			//Object 
+			document.write('Mesin ' + motor.kerangka.mesin + ' Ban ' + motor.kerangka.ban)
+			
+			document.write('<br>'); document.write('<br>')
+			
+			document.write( '(Object dalam object)' )
+			document.write('<br>')
+			
+			//Object dalam object
+			document.write(' Lampu ' + motor.kerangka.body.lampu + ' Speedo Meter ' + motor.kerangka.body.speedoMeter)
+			document.write("<br>");document.write("<br>")
+			
+			
+			
+			
+			//OBJECT 4
+			var tarian = {
+			
+				//Properties
+				nama : 'Tari Burung Enggang ',
+				asal : 'Kalimantan Timur ',
+				
+				//Method
+				
+				//Anonymous Function
+				makna : function(a) {
+					document.write(' Menyerupai ' + a )
+				},
+				fungsi : function(b) {
+					document.write(' dan Untuk menghormati ' + b )
+				},
+				
+				//Object 
+				gerakan : {
+					nganjat: 'Menutup Sayap, ',
+					ngasai: 'Terbang ',
+					//Object dalam object
+					filosofi: {
+						pertama: ' Anggun ',
+						kedua: ' Cantik ',
+					}
+				}
+			};
+			
+			document.write('4. TARIAN ADAT')
+			
+			document.write('<br>');document.write('<br>')
+			
+			document.write( '(Properties)' )
+			document.write('<br>')
+			
+			//Properties
+			document.write( ' Nama Tarian : ' + tarian.nama + ' Asal : ' + tarian.asal)
+			
+			document.write('<br>'); document.write('<br>')
+			
+			document.write( '(Method)' )
+			document.write('<br>')
+			
+			//Method
+			tarian.makna(' Burung Enggang ')
+			tarian.fungsi(' Burung Enggang ' )
+			
+			document.write('<br>'); document.write('<br>')
+			
+			document.write( '(Object)' )
+			document.write('<br>')
+			
+			//Object 
+			document.write('Gerakan Nganjat seperti ' + tarian.gerakan.nganjat + ' Gerakan Ngasai seperti ' + tarian.gerakan.ngasai)
+			
+			document.write('<br>'); document.write('<br>')
+			
+			document.write( '(Object dalam object)' )
+			document.write('<br>')
+			
+			//Object dalam object
+			document.write('Filosofi pertama adalah ' + tarian.gerakan.filosofi.pertama + ' Filosofi pertama adalah ' + tarian.gerakan.filosofi.kedua)
+			document.write("<br>");document.write('<br>')
+			
+			
+			
+			
+			//OBJECT 5
+			var pakaian = {
+			
+				//Properties
+				merek : ' Eiger ',
+				jenis : ' Kaos ',
+				
+				//Method
+				
+				//Anonymous Function
+				sejak : function(a) {
+					document.write(' Berdiri sejak ' + a )
+				},
+				pabrik : function(b) {
+					document.write(' Alamat pabrik ' + b )
+				},
+				
+				//Object 
+				kaos : {
+					bahan: ' Cotton Combet 30s ',
+					sablon: ' Plastisol ',
+					//Object dalam object
+					ukuran: {
+						lenganPendek: ' S,M,L,Xl,XXL ',
+						lenganPanjang: ' S,M,L,Xl,XXL ',
+					}
+				}
+			};
+			
+			document.write('5. EIGER')
+			
+			document.write('<br>');document.write('<br>')
+			
+			document.write( '(Properties)' )
+			document.write('<br>')
+			
+			//Properties
+			document.write( ' Mereknya ' + pakaian.merek + ' Jenisnya ' + pakaian.jenis)
+			
+			document.write('<br>'); document.write('<br>')
+			
+			document.write( '(Method)' )
+			document.write('<br>')
+			
+			//Method
+			pakaian.sejak('  tahun 2006 ')
+			pakaian.pabrik(' Jalan Raya Soerang, Bandung ')
+			
+			document.write('<br>'); document.write('<br>')
+			
+			document.write( '(Object)' )
+			document.write('<br>')
+			
+			//Object 
+			document.write('Bahan : ' + pakaian.kaos.bahan + ' Sablon : ' + pakaian.kaos.sablon)
+			
+			document.write('<br>'); document.write('<br>')
+					
+			document.write( '(Object dalam object)' )
+			document.write('<br>')
+			
+			//Object dalam object
+			document.write('Size Short Sleeve :' + pakaian.kaos.ukuran.lenganPendek + ' Size Long Sleeve :' + pakaian.kaos.ukuran.lenganPanjang)
+			document.write("<br>");document.write('<br>')
+			
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,53 @@
+<html>
+
+	<head>
+		<title> JS | EVENT</title>
+	</head>
+	
+	<body id="body">
+	
+		<button onclick="ubahWarna1()">Merah</button>
+		<button onclick="ubahWarna2()">Biru</button>
+		<button onclick="ubahWarna3()">Tomato</button>
+		
+		<h1 id="judul"></h1>
+		<button onclick="ubahJudul()">Ganti Judul</button>
+		<button onclick="ubahPosisi()">Ganti Posisi</button>
+		
+		<div id="kotak" style="width: 200px; height: 200px; background: mediumseagreen; transition: all 0.5s;" onmouseover="ubahKotak()" onmouseout="ubahKotakLagi()"></div>
+		
+		<script>
+			function ubahWarna1() {
+				document.getElementById("body").style.backgroundColor = "red";
+			}
+			function ubahWarna2() {
+				document.getElementById("body").style.backgroundColor = "blue";
+			}
+			function ubahWarna3() {
+				document.getElementById("body").style.backgroundColor = "tomato";
+			}
+		
+			function ubahJudul() {
+				document.getElementById("judul").innerHTML = "Ini Judul";
+			}
+			function ubahPosisi() {
+				document.getElementById("judul").style.textAlign = "center";
+			}
+			
+			function ubahKotak() {
+				document.getElementById("kotak").style.background = "lightblue";
+				document.getElementById("kotak").style.width = "400px";
+				document.getElementById("kotak").style.height= "400px";
+				document.getElementById("kotak").style.paddingTop= "20px";
+			}
+			
+			function ubahKotakLagi() {
+				document.getElementById("kotak").style.background = "mediumseagreen";
+				document.getElementById("kotak").style.width = "200px";
+				document.getElementById("kotak").style.height= "200px";
+				document.getElementById("kotak").style.paddingTop= "20px";
+			}
+		</script>
+	</body>
+
+</html>

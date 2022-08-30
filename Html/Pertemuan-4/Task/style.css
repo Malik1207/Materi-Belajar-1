@@ -1,0 +1,800 @@
+body{
+
+	background-image: url("https://images.pexels.com/photos/5007442/pexels-photo-5007442.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+.kotak{
+	
+	text-align:center;
+	
+	background-color: yellow;
+	
+	color: grey;
+	
+	margin-left:10px
+
+}
+
+.kotak-0{
+	
+	color: white;
+	
+	margin-left:10px;
+
+}
+
+.kotak-1{
+	
+	background-color: purple;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:10px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-2{
+	
+	background-color: red;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-3{
+	
+	background-color: Green;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-4{
+	
+	background-color: Yellow;
+	
+	color: black;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-5{
+	
+	background-color: Black;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-6{
+	
+	background-color: Gray;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-7{
+	
+	background-color: chocolate;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-8{
+	
+	background-color: Gold;
+	
+	color: black;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-9{
+	
+	background-color: Orange;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-10{
+	
+	background-color: maroon;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-11{
+	
+	background-color: silver;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-12{
+	
+	background-color: blue;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-13{
+	
+	background-color: olive;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-14{
+	
+	background-color: navy;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-15{
+	
+	background-color: aqua;
+	
+	color: black;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-16{
+	
+	background-color: teal;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-17{
+	
+	background-color: lime;
+	
+	color: black;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-18{
+	
+	background-color: violet;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-19{
+	
+	background-color: pink;
+	
+	color: black;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-20{
+	
+	background-color: plum;
+	
+	color: black;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.malik{
+	
+	color: white;
+	margin-top: 10px;
+	margin-left:10px;
+
+}
+
+.kotak-21{
+	
+	background-color:#800080 ;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-22{
+	
+	background-color: #ff0000;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-23{
+	
+	background-color: #008000;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-24{
+	
+	background-color: #ffff00;
+	
+	color: black;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-25{
+	
+	background-color: #000000;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-26{
+	
+	background-color: #808080;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-27{
+	
+	background-color: #d2691e;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-28{
+	
+	background-color: #ffd700;
+	
+	color: black;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-29{
+	
+	background-color:#ffa500 ;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-30{
+	
+	background-color: #800000;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-31{
+	
+	background-color:#c0c0c0 ;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+
+}
+
+.kotak-32{
+	
+	background-color: #0000ff;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-33{
+	
+	background-color: #808000;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-34{
+	
+	background-color: #000080;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-35{
+	
+	background-color: #00ffff;
+	
+	color: black;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-36{
+	
+	background-color: #008080;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-37{
+	
+	background-color: #00ff00;
+	
+	color: black;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-38{
+	
+	background-color: #ee82ee;
+	
+	color: white;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-39{
+	
+	background-color: #ffc0cb;
+	
+	color: black;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+}
+
+.kotak-40{
+	
+	background-color: #dda0dd;
+	
+	color: black;
+	
+	padding-top: 10px;
+	
+	padding-bottom: 10px;
+	
+	padding-left:10px;
+	
+	margin-top:20px;
+	
+	margin-left:10px;
+	
+	margin-bottom:10px;
+	
+}
+
+.last{
+
+	background-color: #e3ffe3;
+	
+	margin-left:10px;
+	
+	padding-left:5px;
+	
+	padding-right:5px;
+	
+
+}
+.last1{
+
+	background-color: #e3ffe3;
+	
+	padding-left:5px;
+	
+	padding-right:5px;
+
+}.last2{
+
+	background-color: #e3ffe3;
+	
+	padding-left:5px;
+	
+	padding-right:5px;
+
+}.last3{
+
+	background-color: #e3ffe3;
+	
+	padding-left:5px;
+	
+	padding-right:5px;
+
+}
+
+
+
+

@@ -1,0 +1,101 @@
+<html>
+
+	<head>
+	
+		<title>Tugas Kalkulator</title>
+		
+		<style>
+			
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100%;
+			}
+				
+			table {
+				border: 1px solid lightgrey;
+				border-radius: 8px;
+				padding: 8px;
+			}
+			
+			th {
+				border: 4px solid white;
+				border-radius: 8px;
+			}
+			
+			input {
+				background: lightgrey;
+				border: none;
+				padding: 10px;
+				font-size: 15px;
+			}
+			
+			button {
+				background: lightgrey;
+				border: none;
+				padding: 8px;
+				width: 100%;
+			}
+		</style>
+		
+	</head>
+	
+	<body>
+	
+		<table>
+		
+			<thead>
+				<tr>
+					<th colspan="4">
+						<form name="form">
+							<input class="textView" name="textView" type="text" />
+						</form>
+					</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+			
+				<tr>
+					<th colspan="2"><button onclick="del()">Del</button></th>
+					<th><button onclick="reset()">C</button></th>
+					<th><button onclick="number('/')">/</button></th>
+				</tr>
+				
+				<tr>
+					<th><button onclick="number(7)">7</button></th>
+					<th><button onclick="number(8)">8</button></th>
+					<th><button onclick="number(9)">9</button></th>
+					<th><button onclick="number('*')">X</button></th>
+				</tr>
+				
+				<tr>
+					<th><button onclick="number(4)">4</button></th>
+					<th><button onclick="number(5)">5</button></th>
+					<th><button onclick="number(6)">6</button></th>
+					<th><button onclick="number('-')">-</button></th>
+				</tr>
+				
+				<tr>
+					<th><button onclick="number(1)">1</button></th>
+					<th><button onclick="number(2)">2</button></th>
+					<th><button onclick="number(3)">3</button></th>
+					<th><button onclick="number('+')">+</button></th>
+				</tr>
+				
+				<tr>
+
+					<th colspan="2"><button onclick="number(0)">0</button></th>
+					<th><button onclick="number('.')">.</button></th>
+					<th><button onclick="equal()">=</button></th>
+				</tr>
+			</tbody>
+			
+		</table>
+		
+		<script src="script.js"></script>
+	
+	</body>
+
+</html>

@@ -1,0 +1,44 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form-input {
+	display: block;
+	padding: 5px;
+	font-size: 12px;
+	border-radius: 5px;
+	margin-top: 5px;
+	}	
+	
+.form-group {
+	box-shadow: 5px 5px 5px grey;
+	border-radius: 10px;
+	padding: 10px;
+	margin: auto;
+	width: 50%;
+	height: 50%;
+	}
+	
+.d-flex {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	}
+.form-php {
+	background: #ECDBBA;
+	border: 30px ridge #F05454;
+	padding: 20px;
+	font-size: 50px;
+	font-family: 'Rampart One', cursive;
+	color: black;
+	border-radius: 5px;
+	
+}
+.php-body {
+	background-image: url('https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kZXxlbnwwfHwwfHw%3D&w=1000&q=80');
+	background-position: auto;
+	background-size: cover;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');

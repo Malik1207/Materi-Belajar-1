@@ -1,0 +1,308 @@
+<html>
+
+	<head>
+		<title>SWICTH</title>
+	</head>
+	
+	<body>
+	
+		<h2 style="text-align: center; font-size: 50px; color: darkcyan;">Tugas Perkondisian Switch</h2>
+		<p>Perkondisian 2</p>
+		<p id="demo-1" style="font-weight: bold; font-size: 30px; font-family: sans-serif;"></p>
+		<p>Perkondisian 3</p>
+		<p id="demo-2" style="font-weight: bold; font-size: 30px; font-family: sans-serif;"></p>
+		<p>Perkondisian 4</p>
+		<p id="demo-3" style="font-weight: bold; font-size: 30px; font-family: sans-serif;"></p>
+		<p>Perkondisian 5</p>
+		<p id="demo-4" style="font-weight: bold; font-size: 30px; font-family: sans-serif;"></p>
+		
+		<script>
+		
+			//PERKONDISIAN SWITCH 1
+			
+			var item = prompt('(PERKONDISIAN 1)Masukkan angka 1 sampai 3 dalam Bahasa Inggris atau Bahasa Indonesia : (contoh: satu, dua, tiga, atau one, two, three) ')
+			
+			switch (item) {
+				case 'satu' :
+					alert('Bahasa Indonesia')	
+					break;	
+
+				case 'dua' :
+					alert('Bahasa Indonesia')	
+					break;	
+
+				case 'tiga' :
+					alert('Bahasa Indonesia')	
+					break;	
+
+				case 'one' :
+					alert('Bahasa Inggris')		
+					break;
+
+				case 'two' :
+					alert('Bahasa Inggris')		
+					break;
+
+				case 'three' :
+					alert('Bahasa Inggris')		
+					break;
+
+				default :
+					alert('BAHASA YANG LOE MASUKKAN GAK ADA DI CONTOH...BAMBANK...!!!')	
+					break;	
+			}
+			
+			//PERKONDISIAN SWITCH 2
+			
+				let month;
+				switch (new Date().getMonth()) {
+				  case 0:
+					 month = "Januari";
+					 break;
+				  case 1:
+					 month = "Februari";
+					 break;
+				  case 2:
+					 month = "Maret";
+					 break;
+				  case 3:
+					 month = "April";
+					 break;
+				  case 4:
+					 month = "Mei";
+					 break;
+				  case 5:
+					 month = "Juni";
+					 break;
+				  case 6:
+					 month = "Juli";
+					 break;
+				  case 7:
+					 month = "Agustus";
+					 break;
+				  case 8:
+					 month = "September";
+					 break;
+				  case 9:
+					 month = "Oktober";
+					 break;
+				  case 10:
+					 month = "November";
+					 break;
+				  case 11:
+					 month = "Desember";
+					 break;
+				  default:
+		 			 text = "Looking forward to the Weekend";
+				}
+				document.getElementById("demo-1").innerHTML = "This Month is " + month;
+				
+			//PERKONDISIAN SWITCH 3
+			
+				let hours;
+				switch (new Date().getHours()) {
+				  default:
+		 			 text = "Looking forward to the Weekend";
+		 			 break;
+				  case 1:
+					 hours = "1";
+					 break;
+				  case 2:
+					 hours = "2";
+					 break;
+				  case 3:
+					 hours = "3";
+					 break;
+				  case 4:
+					 hours = "4";
+					 break;
+				  case 5:
+					 hours = "5";
+					 break;
+				  case 6:
+					 hours = "6";
+					 break;
+				  case 7:
+					 hours = "7";
+					 break;
+				  case 8:
+					 hours = "8";
+					 break;
+				  case 9:
+					 hours = "9";
+					 break;
+				  case 10:
+					 hours = "10";
+					 break;
+				  case 11:
+					 hours = "11";
+					 break;
+				  case 12:
+					 hours = "12";
+					 break;
+				  case 13:
+					 hours = "13";
+					 break;
+				  case 14:
+					 hours = "14";
+					 break;
+				  case 15:
+					 hours = "15";
+					 break;
+				  case 16:
+					 hours = "16";
+					 break;
+				  case 17:
+					 hours = "17";
+					 break;
+				  case 18:
+					 hours = "18";
+					 break;
+				  case 19:
+					 hours = "19";
+					 break;
+				  case 20:
+					 hours = "20";
+					 break;
+				  case 21:
+					 hours = "21";
+					 break;
+				  case 22:
+					 hours = "22";
+					 break;
+				  case 23:
+					 hours = "23";
+					 break;
+				  case 24:
+					 hours = "24";
+					 break;
+				}
+				document.getElementById("demo-2").innerHTML = "it's" + " " + hours + " " + "o'clock" ;
+				
+				//PERKONDISIAN SWITCH 4
+				
+				let day;
+					switch (new Date().getDay()) {
+					  case 0:
+						 day = "Sunday";
+						 break;
+					  case 1:
+						 day = "Monday";
+						 break;
+					  case 2:
+						 day = "Tuesday";
+						 break;
+					  case 3:
+						 day = "Wednesday";
+						 break;
+					  case 4:
+						 day = "Thursday";
+						 break;
+					  case 5:
+						 day = "Friday";
+						 break;
+					  case  6:
+						 day = "Saturday";
+					  default:
+		 			 	 text = "Looking forward to the Weekend";
+					}
+					document.getElementById("demo-3").innerHTML = "Today is " + day;
+					
+				//PERKONDISIAN SWITCH 5
+				
+				let minute;
+					switch (new Date().getMinutes()) {
+					  default:
+		 			 	 text = "Looking forward to the Weekend";
+		 			 	 break;
+					  case 0:
+						 minute = "1";
+						 break;
+					  case 1:
+						 minute = "2";
+						 break;
+					  case 2:
+						 minute = "3";
+						 break;
+					  case 3:
+						 minute = "4";
+						 break;
+					  case 4:
+						 minute = "5";
+						 break;
+					  case 5:
+						 minute = "6";
+						 break;
+					  case 23:
+						 minute = "23";
+					}
+					document.getElementById("demo-4").innerHTML = "it'minutes" + " " + minute;
+				
+				
+				
+			
+		</script>
+	
+	
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

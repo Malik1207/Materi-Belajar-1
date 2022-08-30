@@ -1,0 +1,275 @@
+/*CSS Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+/*End of CSS Riset*/
+
+
+
+body {
+	background: #1d2026;
+}
+
+.banner {
+	height: 700px;
+}
+.headline {
+	position: absolute;
+	top: 250px; left: 150px;
+}
+.headline h1 {
+	color: white;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	width: 45%;
+	line-height: 50px;
+}
+.headline p {
+	padding: 10px 0px;
+	color: grey;
+	font-family: sans-serif; 
+	font-size: 20px;
+	width: 45%;
+	line-height: 30px;
+}
+.button {
+	display: flex;
+	margin: 10px 0px;
+}
+.button h2{
+	padding: 15px 20px;
+	font-family: sans-serif; 
+	font-size: 13px;
+	font-weight: bold;
+	color: white;
+	background: #097dea;
+	border-radius: 2px;
+}
+.button h3{
+	padding: 15px 20px;
+	font-family: sans-serif; 
+	font-size: 13px;
+	font-weight: bold;
+	color: white;
+	background: #242830;
+	border-radius: 2px;
+	margin: 0px 15px;
+}
+.section-1 {
+	display: flex;	
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+
+.produktif {
+	text-align: center;
+	width: 25%;
+	margin: 20px;
+}
+.produktif img {
+	padding: 15px 0px;
+}
+.produktif h1 {
+	font-family: sans-serif; 
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 0px;
+	color: white;
+}
+.produktif p {
+	font-family: sans-serif; 
+	font-size: 18px;
+	line-height: 25px;
+	color: grey;
+}
+.section-2 {
+	height: 600px;
+	margin: 200px 0px;
+}
+.judul {
+	margin: auto;
+	text-align: center;
+	width: 40%;
+}
+.judul h1 {
+	font-family: sans-serif; 
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	margin: 20px 0px;
+}
+.judul p {
+	font-family: sans-serif; 
+	font-size: 18px;
+	line-height: 25px;
+	color: grey;
+	margin-bottom: 60px;
+}
+.kotak {
+	margin: auto;
+	height: 492px;
+	width: 344px;
+	background: #242830;
+}
+.container-kotak {
+	margin: 20px 20px;
+	padding: 20px 0px;
+}
+.judul-1 {
+	display: flex;
+	border-bottom: 1px solid grey;
+	padding: 20px 0px;
+}
+.judul-1 h1 {
+	font-size: 40px;
+	font-family: sans-serif; 
+	font-weight: 700;
+	color: grey;
+}
+.judul-1 h2 {
+	font-size: 40px;
+	font-family: sans-serif; 
+	font-weight: 700;
+	color: white;
+}
+.judul-1 h3 {
+	font-size: 15px;
+	font-family: sans-serif; 
+	color: grey;
+	margin: 20px 0px;
+}
+.judul-2 {
+	border-bottom: 1px solid grey;
+	padding: 20px 0px;
+}
+.judul-2 p {
+	font-size: 18px;
+	font-family: sans-serif; 
+	font-weight: 700;
+	color: white;
+}
+.judul-3 {
+	border-bottom: 1px solid grey;
+	padding: 20px 0px;
+}
+.judul-3 p {
+	font-size: 15px;
+	font-family: sans-serif; 
+	color: grey;
+}
+.judul-4 {
+	display: flex;
+	justify-content: center;
+	padding: 15px 0px;
+	margin: 20px 0px;
+	background: #097dea;
+	border-radius: 2px;
+}
+.judul-4 p {
+	font-size: 15px;
+	font-family: sans-serif; 
+	font-weight: 700;
+	color: white;
+}
+.quote {
+	display: flex;
+	justify-content: space-between;
+	background: #15181D;
+	padding: 60px 30px;
+	margin: auto;
+	width: 70%;
+}
+.quote h1 {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+.quote h2 {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	background: #097dea;
+	padding: 15px;
+	color: white;
+	border-radius: 2px;
+}
+.section-4 {
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+	margin: auto;
+	padding: 100px 0px;
+}
+.watermark-1 h1 {
+	padding: 20px 0px;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: grey;
+}
+.watermark-2 {
+	margin-left: 300px;
+}
+.sosmed-1 {
+	margin: 0px 100px;
+}
+.sosmed-1 i {
+	padding: 20px 20px;
+	color: #097dea;
+}
+.sosmed-2 {
+	display: flex;
+}
+.sosmed-2 p {
+	font-family: sans-serif;
+	font-size: 15px;
+	padding: 0px 10px;
+	color: grey;
+}

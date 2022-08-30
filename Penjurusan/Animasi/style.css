@@ -1,0 +1,107 @@
+.transition-1 {
+	width: 100px;
+	height: 100px;
+	background: #082032;
+	transition: 2s;
+}
+.transition-1:hover {
+	width: 300px;
+	background: #476072;
+}
+.transition-2 {
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	background: #35858B;
+	transition: 2s;
+}
+.transition-2:hover {
+	width: 200px;
+	height: 200px;
+	background: #AEFEFF;
+}
+.transition-3 {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: #C3B091;
+	transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.transition-3:hover {
+	background-color: #FFE6BC;
+	width: 200px;
+	height: 200px;
+	transform: rotate(180deg);
+}
+.animation-1 {
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	background-color: red;
+	position: relative;
+	animation-name: example;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes example {
+	0%		{background-color: red; left: 0px; top:0px;}
+	25%	{background-color: yellow; left: 200px; top: 0px;}
+	50%	{background-color: blue; left: 200px; top: 200px;}
+	75%	{background-color: green; left: 0px; top: 200px;}
+	100%	{background-color: red; left: 0px; top: 0px;}
+}
+
+.animation-2 {
+	/* Animation Properties */
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-name: my-animation;
+	
+	/* Other Properties */
+	width: 300px;
+	height: 100px;
+	border-radius: 10px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-left: auto;
+}
+
+@keyframes my-animation {
+	from {
+		background-color: #ff7a59;
+		width: 300px;
+		top: 10px;
+	}
+	to {
+		background-color: #33475b;
+		width: 50px;
+		top: 100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

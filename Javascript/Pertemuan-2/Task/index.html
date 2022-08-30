@@ -1,0 +1,123 @@
+<html>
+
+	<head>
+		<title>TASK</title>
+		<style>
+		body {
+			height: 10000px;
+		}
+		h1 {
+			font-size: 100px;
+			text-align: center;
+		}
+		div {
+		  border: 1px solid black;
+		  background: lightgreen;
+		  width: 200px;
+		  height: 100px;
+		  overflow: scroll;
+		}
+</style>
+	</head>
+	
+	<body id="bg">
+	
+		<h1>TASK</h1>
+	
+		<p style="font-family: sans-serif; font-weight: bold;">This is IF</p>
+		<p id="demo-1">Selamat Siang</p>
+		<p style="font-family: sans-serif; font-weight: bold;">This is IF ELSE</p>
+		<p id="demo-2">C70</p>
+		<p style="font-family: sans-serif; font-weight: bold;">This is IF, ELSE IF DAN ELSE</p>
+		<button onclick="makan()">Waktu Makan</button>
+		
+		<p style="font-family: sans-serif; font-weight: bold;">This is Number</p>
+		<p id="demo-3"></p>
+		<p style="font-family: sans-serif; font-weight: bold;">This is String</p>
+		<p id="demo-4"></p>
+		<p style="font-family: sans-serif; font-weight: bold;">This is Object</p>
+		<p id="demo-5"></p>
+		
+		<p style="font-family: sans-serif; font-weight: bold;">This is Events</p>
+		<button onclick="this.innerHTML=Date()">This is OneClick.</button>
+		<button ondblclick="document.getElementById('bg').style='background: pink;'">This is DoubleClick</button>
+		
+		<div onscroll="myFunction()">无可否认，当读者在浏览一个页面的排版时，难免会被可阅读的内容所分散注意力。的目的就是为了保持字母多多少少标准及平均的分配，而不是“此处有文本，此处有文本”，从而让内容更像可读的英语。如今，作为默认的示范文本，搜一搜 就能找到这些网站的雏形。 演变出了各式各样的版本，有些出于偶然，有些则是故意的（刻意的幽默之类的）。</div>
+		<p>jumlah Scroll <span id="demo-6">0</span> kali.</p>
+		
+		<input type="text" id="myInput" oninput="inputText()">
+
+		<p id="demo-7"></p>
+		
+		<script>
+		//if
+		
+		if (new Date().getHours() >18) {
+			document.getElementById("demo-1").innerHTML = "Selamat Malam!";
+		}
+		//if else
+		
+		let motor = 10;
+			
+		if (motor == 9) {
+				document.getElementById('demo-2').innerHTML = "True";
+		} else {
+				document.getElementById('demo-2').innerHTML = "False";
+		} 
+		//if, else if & else
+		
+		
+		let jam = new Date().getHours();
+		
+		function makan() {
+			
+		if (jam == 6) {
+		alert("Sarapan")
+				
+		} else if (jam == 12) {
+			
+		alert("Makan Siang")
+				
+		} else {
+			
+		alert ("Makan Malam")
+
+		}
+			
+		}
+		//Data Type
+		
+		let nomor = 6281343032487;
+		document.getElementById("demo-3").innerHTML = nomor;
+		
+		var nama = "Abd Malik";
+		document.getElementById("demo-4").innerHTML = nama;
+		
+		const person = {
+	   
+	   firstName : "Abd",
+      lastName : "Malik",
+      age : 20,
+      eyeColor : "brown"
+      };
+
+		document.getElementById("demo-5").innerHTML =
+		person.firstName + " " + person.lastName + " umur " + person.age + " Tahun.";
+		
+		
+		var x = 0;
+		function myFunction() {
+ 	   document.getElementById("demo-6").innerHTML = x += 1;
+		}
+		
+		function inputText() {
+  	   var y = document.getElementById("myInput").value;
+	   document.getElementById("demo-7").innerHTML = "Yang kamu tulis: " + y;
+		}
+		</script>
+		
+		
+		
+	</body>
+
+</html>

@@ -1,0 +1,260 @@
+<html>
+
+	<head>
+		<title>String Method</title>
+	</head>
+
+	<body>
+	
+			<h1 style="font-size: 50px; font-family: sans-serif;text-align: center; border: 1px solid black; border-radius: 20px; width: 50%; margin: auto; background: lightgrey; margin-bottom: 100px;">TUGAS STRING METHOD</h1>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">1. ChartAt untuk mengembalikan karakter pada indeks tertentu dalam sebuah string.</p>
+			<p id="demo-1" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">2. ChartCodeAt untuk mengembalikan karakter pada indeks tertentu dengan kode utf-16 dalam sebuah string.</p>
+			<p id="demo-2" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">3. Concat untuk menggabungkan dua atau lebih sebuah string.</p>
+			<p id="demo-3" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">4. Includes untuk mengembalikan sebuah string dalam sebuah string jika benar akan muncul TRUE jika salah FALSE</p>
+			<p id="demo-4" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">5. EndWith Includes untuk mengembalikan sebuah string terakhir dalam sebuah string jika benar akan muncul TRUE jika salah FALSE</p>
+			<p id="demo-5" style="font-size: 30px; ;color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">6. IndexOf untuk mengembalikan indeks pertama dari nilai tertentu dalam sebuah string.</p>
+			<p id="demo-6" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">7. LastIndexOf untuk mengembalikan indeks dari kejadian terakhir nilai tertentu dalam sebuah string.</p>
+			<p id="demo-7" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">8. Match untuk mengembalikan sesuatu yang cocok dalam sebuah string </p>
+			<p id="demo-8" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">9. MatchAll untuk mengembalikan semua sesuatu yang cocok dalam sebuah string.</p>
+			<p id="demo-9" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">10. Repeat untuk mengembalikan string dengan jumlah salinan dari string.</p>
+			<p id="demo-10" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">11. Replace untuk mengembalikan string baru.</p>
+			<p id="demo-11" style="font-size: 30px; color: blue;">Berakit-rakit ke hulu berenang-renang ke tepian</p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">12. ReplaceAll untuk mengembalikan string baru dengan semua kecocokan pola diganti dengan pengganti.</p>
+			<p id="demo-12" style="font-size: 30px; color: blue;">Bersakit-sakit dahulu bersenang-senang kemudian</p>
+			<p id="demo-13" style="font-size: 30px; color: blue;">Bersakit-sakit dahulu bersenang-senang kemudian</p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">13. Search untuk pencarian string untuk nilai.</p>
+			<p id="demo-14" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">14. Slice untuk ekstrak bagian dari string.</p>
+			<p id="demo-15" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">15. Split untuk membagi string menjadi array substring.</p>
+			<p id="demo-16" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">16. StarWith untuk mengembalikan sebuah string pertama dalam sebuah string jika benar akan muncul TRUE jika salah FALSE.</p>
+			<p id="demo-17" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">17. Substr untuk mengekstrak bagian string.</p>
+			<p id="demo-18" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">18. ToLowerCase untuk mengkonversi string ke huruf kecil huruf.</p>
+			<p id="demo-19" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">19. ToUpperCase untuk mengkonversi string ke huruf kecil besar.</p>
+			<p id="demo-20" style="font-size: 30px; color: blue;"></p>
+			
+			<p style= "font-family: sans-serif; font-size: 20px;">20. ToString untuk mengkorversi object string jadi string.</p>
+			<p id="demo-21" style="font-size: 30px; color: blue;"></p>
+
+			<p style= "font-family: sans-serif; font-size: 20px;">21. ToValueOf untuk mengkorversi object string jadi string.</p>
+			<p id="demo-22" style="font-size: 30px; color: blue;"></p>
+
+		<script>
+		
+			//ChartAt()
+			let text1 = "Abdul Malik";
+			let result1 = text1.charAt(6);
+			document.getElementById("demo-1").innerHTML = result1;
+			
+			
+			//ChartCodeAt()
+			let text2 = "Abdul Malik";
+			let result2 = text2.charCodeAt(5);
+			document.getElementById("demo-2").innerHTML = result2;
+			
+			
+			//Concat()
+			let text3 = "Abdul";
+			let text4 = " ";
+			let text5 = "Malik";
+			let result3 = text3.concat(text4,text5);
+			document.getElementById("demo-3").innerHTML = result3;
+			
+			
+			//Includes()
+			let text6 = "Hai, apa kabar?.";
+			let result4 = text6.includes("apa");
+			document.getElementById("demo-4").innerHTML = result4;
+			
+			
+			//EndWith()
+			let text7 = "Dinda jangan marah-marah";
+			let result5 =  text7.endsWith("marah");
+			document.getElementById("demo-5").innerHTML = result5;
+			
+			
+			//IndexOf()
+			let text8 = "Assalamualaikum ukhti";
+			let result6 = text8.indexOf("ukhti");
+			document.getElementById("demo-6").innerHTML = result6;
+			
+			
+			//LastIndexOf()
+			let text9 = "Assalamualaikum akhi";
+			let result7 = text9.lastIndexOf("akhi");
+			document.getElementById("demo-7").innerHTML = result7;
+			
+			
+			//Match()
+			let text10 = "Berakit-rakit ke hulu berenang-renang ke tepian";
+			let result8 = text10.match(/ena/g);
+			document.getElementById("demo-8").innerHTML = result8;
+			
+			
+			//MatchAll()
+			let text11 = "Berakit-rakit ke hulu berenang-renang ke tepian";
+			let result9 = [...text11.matchAll(/ak(i)/g)];
+			document.getElementById("demo-9").innerHTML = result9;
+			
+			
+			//Repeat()
+			let text12 = "Pascol!";
+			let result10 = text12.repeat(5);
+			document.getElementById("demo-10").innerHTML = result10;
+			
+			
+			//Replace()
+			let text13 = document.getElementById("demo-11").innerHTML; 
+			let result11 = text13.replace(/ke tepian/g, "ke Umbul Saren");
+			document.getElementById("demo-11").innerHTML = result11;
+			
+			
+			//ReplaceAll()
+			let text14 = document.getElementById("demo-12").innerHTML; 
+			let result12 = (text14.replaceAll(/bersenang-senang kemudian/g, "giliran senang gak kebagian"));
+			let result13 = (text14.replaceAll("Bersakit-sakit dahulu bersenang-senang kemudian", "Temenan melulu gak pernah Jadian"));
+			document.getElementById("demo-12").innerHTML = result12;
+			document.getElementById("demo-13").innerHTML = result13;
+			
+			
+			//Search()
+			let text15 = "Indonesia Tanah Air Beta."
+			let result14 = text15.search("Tanah");
+			document.getElementById("demo-14").innerHTML = result14;
+			
+			
+			//Slice()
+			let text16 = "James Bond"; 
+			let result15 = text16.slice(5);
+			document.getElementById("demo-15").innerHTML = result15;
+			
+			
+			//Split()
+			let text17 = "Ular lari lurus";
+			const result16 = text17.split("l");
+			document.getElementById("demo-16").innerHTML = result16; 
+			
+			
+			//StartWith()
+			let text18 = "Witing Tresna jalaran seko kulino";
+			let result17 = text18.startsWith("Witing");
+			document.getElementById("demo-17").innerHTML = result17;
+			
+			
+			//Substr()
+			let text19 = "Kucing melihat anjing";
+			let result18 = text19.substr(15, 4);
+			document.getElementById("demo-18").innerHTML = result18;
+			
+			
+			//ToLowerCase()
+			let text20 = "ASYIAP";
+			let result19 = text20.toLowerCase();
+			document.getElementById("demo-19").innerHTML = result19;
+			
+			
+			//ToUpperCase()
+			let text21 = "asyiap";
+			let result20 = text21.toUpperCase();
+			document.getElementById("demo-20").innerHTML = result20;
+			
+			
+			//ToString()
+			let text22 = "Assalamu'alaikum";
+			let result21 = text22;
+			document.getElementById("demo-21").innerHTML = result21;
+			
+			
+			//ToValueOf()
+			let text23 = "Thanks for coming and leaving...!!!";
+			let result22 = text23.valueOf();
+			document.getElementById("demo-22").innerHTML = result22; 
+
+		
+		</script>
+
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,206 @@
+<div class="Article-title-7">
+							<h1>Get Connected</h1>
+							<hr class="main-center-line">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+						</div>
+<article>
+							<div class="article-content-7">
+								<div class="article-text7-1">
+									<h1>GET IN TOUCH</h1>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been standard. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+									<span class="facebook-1">
+										<i class="fab fa-facebook-f"></i>
+									</span>
+									<span class="twitter-1">
+										<i class="fab fa-twitter"></i>
+									</span>
+									<span class="behance-1">
+										<i class="fab fa-behance"></i>
+									</span>
+									<span class="dribbble-1">
+										<i class="fab fa-dribbble"></i>
+									</span>
+								</div>
+								
+								<div class="article-text7-2">
+									<div class="article-address">
+										<h1>OUR ADDRESS</h1>
+										<div class="icon7-1">
+											<i class="fas fa-map-marker-alt"></i>
+											<p>1234 Address name.&nbsp;City Name</p>
+										</div>
+										<div class="icon7-2">
+											<i class="fas fa-phone-alt"></i>
+											<p>(123)456-7890</p>
+										</div>
+										<div class="icon7-3">
+											<i class="fas fa-envelope"></i>
+											<p>mailexample@gmail.com</p>
+										</div>
+									</div>
+									<div class="article-address">
+										<h1>BUSINESS HOURS</h1>
+										<div class="icon7-1">
+											<i class="far fa-clock"></i>
+											<p><span style="font-weight: bold">Mon. - Fri.</span>&nbsp; 8am to 5pm</p>
+										</div>
+										<div class="icon7-1">
+											<i class="far fa-clock"></i>
+											<p><span style="font-weight: bold">Sat. -</span>&nbsp; 8am to 11pm</p>
+										</div>
+										<div class="icon7-3">
+											<i class="far fa-clock"></i>
+											<p><span style="font-weight: bold">Sun. -</span>&nbsp; Closed</p>
+										</div>
+									</div>	
+								</div>
+							</div>
+						</article>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						/* Article 7 */
+.Article-title-7 {
+	background-color: #fff;
+	text-align: center;
+	margin-top: 200px;
+}
+.Article-title-7 h1 {
+	font-size: 23px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+}
+.main-center-line {
+	background-color: #ffc527;
+	border: none;
+	width: 35px;
+	height: 3px;
+}
+.Article-title-7 p {
+	color: grey;
+	font-size: 15px;
+	line-height: 25px;
+	width: 65%;
+	margin-left: 200px;
+	margin-bottom: 100px;
+}
+
+.article-content-7 {
+	position: relative;
+	display: flex;
+	background-color: #F6F8F9;
+	height: 500px;
+	width: 100%;
+}
+.article-text7-1 {
+	background-color: #fff;
+	border: 1px solid rgba(128,128,128,0.2);
+	width: 45%;
+	margin-top: 100px;
+	padding: 30px 30px;
+}
+.article-text7-1 h1 {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+.article-text7-1 p {
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	color: grey;
+	line-height: 20px;
+	margin: 20px 0px;
+}
+.facebook-1 i {	
+	background-color: #0000ff;
+   border: 1px solid none;
+   border-radius: 2px;
+   padding: 5px 8px;
+   color: white;
+}
+.twitter-1 i {	
+	background-color: #00acee;
+   border: 1px solid none;
+   border-radius: 2px;
+   padding: 5px;
+   color: white;
+}
+.behance-1 i {	
+	background-color: #053eff;
+   border: 1px solid none;
+   border-radius: 2px;
+   padding: 5px;
+   color: white;
+}
+.dribbble-1 i {	
+	background-color: #ea4c89;
+   border: 1px solid none;
+   border-radius: 2px;
+   padding: 5px;
+   color: white;
+}
+.article-text7-2 {
+	display: flex;
+	background-color: #fff;
+	border: 1px solid rgba(128,128,128,0.2);
+	width: 45%;
+	padding: 30px 30px;
+	margin: 30px 0px;
+}
+.article-address {
+	width: 50%;
+}
+.article-address h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.icon7-1 {
+	display: flex;
+}
+.icon7-1 i {
+	color: #ffc527;
+	margin: 5px 0px;
+}
+.icon7-1 p {
+	margin-left: 20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	color: gray;
+}
+.icon7-2 {
+	display: flex;
+}
+.icon7-2 i {
+	color: #ffc527;
+	margin: 5px 0px;
+}
+.icon7-2 p {
+	margin-left: 20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	color: gray;
+}
+.icon7-3 {
+	display: flex;
+}
+.icon7-3 i {
+	color: #ffc527;
+	margin: 5px 0px;
+}
+.icon7-3 p {
+	margin-left: 20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	color: gray;
+}
+
+
+

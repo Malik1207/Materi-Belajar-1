@@ -1,0 +1,30 @@
+body{
+
+	background-color: #ffd75e;
+
+}
+
+
+.judul{
+	
+	text-align:center;
+	
+	background-color: chartreuse;
+	
+	color: crimson;
+		
+}
+
+.kotak{
+
+	border: 1px solid black;
+
+	background-color:blue;
+	
+	padding: 50px 40px 50px 40px;
+	
+	margin-right: 20px;
+	
+}
+
+

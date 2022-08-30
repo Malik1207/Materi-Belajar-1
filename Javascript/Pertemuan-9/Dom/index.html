@@ -1,0 +1,55 @@
+<html>
+
+	<head>
+		<title>Document Object Model</title>
+	</head>
+	
+	<body id="background">
+	
+		<h1 style="text-align: center;">Pertemuan 9 | JavaScript DOM (Document Object Model)</h1>
+		
+		<div id="line" style="display: block; height: 100px; opacity: 0%; background-color: lightblue;">
+			
+			<p id="text" onclick="text()">Text</p>
+			
+		</div>
+		
+		<center>
+			<button style = "background-color: green; border: none; border-radius: 5px; color: white;" onclick="warnaHijau()">Background Warna Hijau</button>
+			<button style = "background-color: yellow; border: none; border-radius: 5px; color: black; "onclick="warnaKuning()">Background Warna Kuning</button>
+			<button style = "background-color: black; border: none; border-radius: 5px; color: white; "onclick="warnaHitam()">Background Warna Hitam</button>
+			
+			<button style = "background-color: orange; border: none; border-radius: 5px; color: white; "onclick="mountain()">Mountain Background</button>
+			
+			<button onclick="muncul()">Sido Muncul</button>
+		</center>
+		
+		<script>
+		
+			function warnaHijau() {
+				document.getElementById("background").style.backgroundColor = "green";
+			}
+			function warnaKuning() {
+				document.getElementById("background").style.backgroundColor = "yellow";
+			}
+			function warnaHitam() {
+				document.getElementById("background").style.backgroundColor = "black";
+			}
+			
+			function mountain() {
+				document.getElementById("background").innerHTML = "<img src='https://s.id/JeXg6'>";
+			}
+			
+			function muncul() {
+				document.getElementById("line").style.opacity = "100%";
+			}
+			
+			function text() {
+				document.getElementById("text").innerHTML = "Yo Whaddup Men...!"
+			}
+			
+		</script>	
+		
+	</body>
+
+</html>

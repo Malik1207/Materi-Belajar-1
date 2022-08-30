@@ -1,0 +1,127 @@
+<html>
+
+	<head>
+		<title>Javascript Conditions</title>
+	</head>
+	
+	<body>
+		<button onclick="sholat()">Waktu Sholat</button>
+	
+		<p id="demo">Dell</p>
+		
+		<script>
+			//if else
+		
+			let laptop = 10;
+			
+			if (laptop == 3) {
+				document.getElementById('demo').innerHTML = "True";
+			} 
+			else {
+				document.getElementById('demo').innerHTML = "False";
+			}
+			
+			//if else
+			
+			let laut = "asin";
+			
+			if (laut == prompt("Air laut rasanya apa ? jawab...!!!")) {
+			
+				alert("benar");
+				
+			} else if (laut == "manis"){
+			
+				alert("Salah");
+				
+			} else {
+			
+				alert("False");
+				
+			}
+			
+			//if, else if & else
+			
+			let jam = new Date().getHours();
+			
+			function sholat() {
+			
+				    if (jam == 4) {
+			
+				alert("Waktu Subuh")
+				
+			} else if (jam == 12) {
+			
+				alert("Waktu Dzuhur")
+				
+			} else if (jam == 15) {
+			
+				alert("Waktu Ashar")
+				
+			} else if (jam == 18) {
+			
+				alert("Waktu Maghrib")
+				
+			} else {
+			
+				alert ("Waktu Isya")
+				console.log("Waktu Isya")
+			}
+			
+			}
+		</script>
+		
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

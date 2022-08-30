@@ -1,0 +1,154 @@
+<html>
+
+	<head>
+	
+		<title>DOM</title>
+		
+		<style>
+		
+		body {
+			height: 1500px;
+		}
+		
+		h1 {
+			width: 40%;
+			color: #0A043C;
+			background-color: #BBBBBB;
+			font-size: 50px;
+			font-family: sans-serif;
+			text-align: center;
+			border: 5px double black;
+			border-radius: 20px;
+			margin: auto;
+		}
+		p {
+			font-family: sans-serif;
+			font-size: 30px;
+			color: #1B1F3A;
+		}
+		.scroll {
+		  border: 1px solid black;
+		  background: lightblue;
+		  text-align: justify;
+		  width: 300px;
+		  height: 200px;
+		  overflow: scroll;
+		}
+		input {
+			border: 2px solid orange;
+		}
+		.mouseover {
+			width: 200px; 
+			height: 200px; 
+			border-radius: 100px;
+			background: #161E54; 
+			transition: all 0.5s;"
+			margin: auto; 
+		}
+	</style>
+	
+	</head>
+	
+	<body id="bg">
+	
+		<h1>JavaScript | DOM</h1>
+		<br>
+		<br>
+		<br>
+		
+		<center>
+		
+			<!-- One Click -->
+			<p>1. This OneClick</p>
+			<button onclick="merah()">Merah</button>
+			<button onclick="putih()">Putih</button>
+		
+			<!-- Double Click -->
+			<p>2. This is DoubleClick</p>
+			<button ondblclick="cyan()">INDONESIA</button>
+			
+			<!-- Scroll -->
+			<p>3. This is Scroll</p>
+			<div onscroll="myFunction()" class="scroll">是印刷及排版领域所常用的虚拟文字由于曾经台匿名的打印机刻意打乱了盒印刷字体从而造出本字体样品书从西元世纪起就被作为此领域的标准文本使用它不仅延续了五个世纪还通过了电子排版的挑战其雏形却依然保存至今在年代公司发布了印刷着段落的纸张从而广泛普及了它的使用最近计算机桌面出版软件也通过同样的方式使是印刷及排版领域所常用的虚拟文字由于曾经台匿名的打印机刻意打乱了盒印刷字体从而造出本字体样品书从西元世纪起就被作为此领域的标准文本使用它不仅延续了五个世纪还通过了电子排版的挑战其雏形却依然保存至今在年代公司发布了印刷着段落的纸张从而广泛普及了它的使用最近计算机桌面出版软件也通过同样的方式使是印刷及排版领域所常用的虚拟文字由于曾经台匿名的打印机刻意打乱了盒印刷字体从而造出本字体样品书从西元世纪起就被作为此领域的标准文本使用它不仅延续了五个世纪还通过了电子排版的挑战其雏形却依然保存至今在年代公司发布了印刷着段落的纸张从而广泛普及了它的使用最近计算机桌面出版软件也通过同样的方式使</div>
+			<h2>jumlah Scroll <span id="demo-1">0</span> kali.</h2>
+			
+			<!-- Input Text -->
+			<p>4. This is InputText</p>
+			<input type="text" id="myInput" oninput="inputText()">
+			<h2 id="demo-2"></h2>
+			
+			<!-- Mouse Enter -->
+			<p>5. This is MouseEnter</p>
+			<img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="https://s.id/Jh1l4" alt="Smiley" width="250" height="250">
+			
+			<!-- Mouse Over -->
+			<p>6. This is MouseOver</p>
+			<div id="bulat" class="mouseover" onmouseover="ubahBulat()" onmouseout="ubahBulatLagi()"></div>
+		
+		</center>
+		
+		
+		
+		<script>
+		
+		//One Click
+		function merah() {
+				document.getElementById("bg").style.backgroundColor = "red";
+			}
+		function putih() {
+				document.getElementById("bg").style.backgroundColor = "white";
+			}
+		
+		//Double Click
+		function cyan() {
+				document.getElementById("bg").innerHTML = "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/War_Flag_of_Indonesia.png/1200px-War_Flag_of_Indonesia.png'>";
+			}
+		
+		//Scroll
+		var x = 0;
+		function myFunction() {
+ 	   document.getElementById("demo-1").innerHTML = x += 1;
+		}
+		
+		//Input Text
+		function inputText() {
+  	   var y = document.getElementById("myInput").value;
+	   document.getElementById("demo-2").innerHTML = "YANG KAMU TULIS: " + y;
+	   document.getElementById("demo-2").style.fontWeight = "bold";
+	   document.getElementById("demo-2").style.fontFamily = "sans-serif";
+	   document.getElementById("demo-2").style.fontSize = "30px";
+		}
+		
+		//Mouse Enter
+		function bigImg(x) {
+	  	 x.style.height = "500px";
+	  	 x.style.width = "500px";
+	   }
+
+		function normalImg(x) {
+		  x.style.height = "250px";
+		  x.style.width = "250px";
+		}
+		
+		//Mouse Over
+		function ubahBulat() {
+				document.getElementById("bulat").style.background = "#88E0EF";
+				document.getElementById("bulat").style.width = "400px";
+				document.getElementById("bulat").style.height= "400px";
+				document.getElementById("bulat").style.borderRadius= "400px";
+		}	
+		function ubahBulatLagi() {
+				document.getElementById("bulat").style.background = "#161E54";
+				document.getElementById("bulat").style.width = "200px";
+				document.getElementById("bulat").style.height= "200px";
+				document.getElementById("bulat").style.borderRadius= "100px";
+		}
+		</script>
+		
+		
+		
+	</body>
+
+</html>
+</html>
+

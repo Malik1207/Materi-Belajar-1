@@ -1,0 +1,65 @@
+<html>
+
+	<head>
+		<title>Object</title>
+	</head>
+	
+	<body>
+		
+		<h1 style="text-align: center;">JAVASCRIPT DATA OBJECT</h1>
+		
+		<script>
+			var pesawat = {
+				
+				//Proporties
+				merek: ' Sukhoi 747 ',
+				warna: ' Rainbow ',
+				
+				//Method
+				
+				//Anonymous Function | Sekali Pake
+				terbang: function(a) {
+					console.log('lagi terbang' + a)
+				},
+				
+				mendarat: function(b) {
+					console.log('lagi mendarat' + b)
+				},
+				//Object
+				roda: {
+					velg: ' Besi ',
+					pentil: ' Ijo ',
+					
+					//Object
+					ban: {
+						dalam: 'Lentur',
+						luar: 'Keras',
+					},
+					
+					muter: function(arah) {
+						console.log('Bannya muter-muter gess, ke ' + arah)
+					},
+					
+					terbuat: function(terbuat) {
+						console.log('Velgnya terbuat dari' + terbuat )
+					}
+				},
+			};
+			
+			alert(' merek : ' + pesawat.merek + ' warna : ' + pesawat.warna)
+			document.write(' merek : ' + pesawat.merek + ' warna : ' + pesawat.warna)
+			
+			pesawat.terbang(' di udara ');
+			pesawat.mendarat(' di bandara ');
+			
+			console.log('Velg : ' + pesawat.roda.velg + ' Pentil : ' + pesawat.roda.pentil)
+			
+			console.log('Ban Dalam : ' + pesawat.roda.ban.dalam + ' Ban Luar : ' + pesawat.roda.ban.luar)
+			pesawat.roda.muter ('depan');
+			
+			pesawat.roda.terbuat ( pesawat.roda.velg );
+
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>Hitung Diskon</title>
+    <style>
+    	body {
+    		background-image: url('https://pbs.twimg.com/media/CUeH0V4UcAARJzf.jpg');
+    		background-size: cover;
+    		background-position: center;
+    	}
+    	form {
+    		display: flex;
+    		justify-content: center;
+    	}
+    	input {
+    		border: 15px ridge #f44602 ;
+    		border-radius: 10px;
+    		background: #e5bf79;
+    		margin: 20px;
+    		padding: 20px;
+    	}
+    	marquee {
+    		display: flex;
+    		justify-content: center;
+			margin-top: 480px;
+			background: black;
+			color: white;
+    	}
+    	.cek {
+    		border: 10px double brown;
+    		border-radius: 40px;
+    		background: black;
+    		color: white;
+    		padding: 20px 20px;
+    	}
+    </style>
+</head>
+<body>
+  
+        <form name="Diskon">
+
+            <input type="text" name="harga" placeholder="HARGA" pattern="[0-9]{3}">
+
+            <input type="text" name="persen" placeholder="DISKON %">
+
+            <input class="cek" type="button" name="cek" value="CEK" onclick="cekDiskon();">
+
+            <input type="text" name="hasil" placeholder="HASIL">
+
+        </form>
+        
+        <marquee scrollamount="5" loop="infinite">
+				<p>Kabar gembira !! EIGER mempersembahkan Program Year End Sale up to 50% all item berlaku di all Eiger Adventure Store. &nbsp;&nbsp;&nbsp;Kabar gembira !! EIGER mempersembahkan Program Year End Sale up to 50% all item berlaku di all Eiger Adventure Store. &nbsp;&nbsp;&nbsp;Kabar gembira !! EIGER mempersembahkan Program Year End Sale up to 50% all item berlaku di all Eiger Adventure Store.</p>
+			</marquee>
+	
+ 
+        <script type="text/javascript">
+        
+            function cekDiskon() { 
+
+                var harga = document.Diskon.harga.value; 
+
+                var persen = document.Diskon.persen.value; 
+
+                harga = parseInt(harga); 
+
+                persen = parseInt(persen); 
+
+                var hasil = harga * (persen/100); 
+
+                hasil = harga - parseInt(hasil); 
+
+                document.Diskon.hasil.value = "Rp " + hasil; 
+            }
+            
+        </script>
+        
+</body>
+</html>
