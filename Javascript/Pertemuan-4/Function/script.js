@@ -9,20 +9,18 @@ function penjumlahan (x,y) {
 }
 
 
-
-
 //var y = toCelsius (80);
 
 //console.log(y);
 
-function toCelsius (a){
-		var total = (5/9) * (a-32);
+function toCelsius (f){
+		var hasil = (f-32) * (5/9);
 
-		return total;
+		return hasil;
 }
-document.writeln(toCelsius(80));
+
+document.writeln(toCelsius(100));
 document.writeln("</br>");
-document.writeln(toCelsius(50));
 
 function sayHello(name){
 	document.writeln(`Hello ${name}`);

@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>Hitung Diskon</title>
+    <style>
+      .judul {
+        text-align: center;
+      }
+      .form-diskon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="judul">Perhitungan Diskon Sederhana</h1>
+    <div class="form-diskon">
+      <form name="diskon">
+        <input
+          type="number"
+          name="harga"
+          placeholder="HARGA" />
+
+        <input
+          type="number"
+          name="persen"
+          placeholder="DISKON %" />
+
+        <input
+          class="cek"
+          type="button"
+          name="cek"
+          value="CEK"
+          onclick="cekDiskon();" />
+
+        <input
+          type="text"
+          name="hasil"
+          placeholder="HASIL" />
+      </form>
+    </div>
+
+    <script type="text/javascript">
+      function cekDiskon() {
+        var harga = document.diskon.harga.value;
+
+        var persen = document.diskon.persen.value;
+
+        harga = parseInt(harga);
+
+        persen = parseInt(persen);
+
+        var hasil = harga * (persen / 100);
+
+        hasil = harga - parseInt(hasil);
+
+        document.diskon.hasil.value = 'Rp ' + hasil;
+      }
+    </script>
+  </body>
+</html>
