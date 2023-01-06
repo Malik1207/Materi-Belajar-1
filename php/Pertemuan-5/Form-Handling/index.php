@@ -1,41 +1,46 @@
 <html>
-	<head>
-		<title>PER 5 | Form Handling</title>
-		<style>
-			{
-				font-family: sans-serif;
-			}
-		</style>
-	</head>
-	<body>
-		<h1>Input Data</h1>
 
-		<form action="result.php" method = "POST">
+<head>
+   <title>PER 5 | Form Handling</title>
+   <style>
+   {
+      font-family: sans-serif;
+   }
+   </style>
+</head>
 
-			<p>Nama</p>
+<body>
+   <h1>Input Data</h1>
 
-			<input type="text" name="nama">
+   <!-- 
+		<form action="result.php" method="POST">
 
-			<p>Tanggal Lahir</p>
+      <p>Nama</p>
 
-			<input type="date" name="tanggal">
+      <input type="text" name="nama">
 
-			<br><br>
+      <p>Tanggal Lahir</p>
 
-			<label>Jenis Kelamin</label>
+      <input type="date" name="tanggal">
 
-			<br><br>
+      <br><br>
 
-			<span><input type="radio" name="jk" value="Laki-laki">Laki-laki</span>
+      <label>Jenis Kelamin</label>
 
-			<br><br>
-			
-			<span><input type="radio" name="jk" value="Perempuan">Perempuan</span>
+      <br><br>
 
-			<br><br>
-			<button>
-				Submit
-			</button>
-		</form>
-	</body>
+      <span><input type="radio" name="jk" value="Laki-laki">Laki-laki</span>
+
+      <br><br>
+
+      <span><input type="radio" name="jk" value="Perempuan">Perempuan</span>
+
+      <br><br>
+      <button>
+         Submit
+      </button>
+   </form>
+	 -->
+</body>
+
 </html>
